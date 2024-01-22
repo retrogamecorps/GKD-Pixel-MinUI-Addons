@@ -1,7 +1,7 @@
 # GKD-Pixel-MinUI-Addons
 *Add-on package to integrate GKD Pixel's standalone stock emulators into the MinUI navigation interface*
 
-While the <a href="https://github.com/shauninman/MinUI">MinUI</a> launcher greatly improves the GKD Pixel's navigation and user experience, some of the MinUI cores struggle to play certain games at full speed on the device (mostly SNES and PS1).  Using MinUI's pak function, we can create alternative folders and scripts to launch problematic games with the Pixel's stock standalone emulators instead of the default MinUI core, while still taking advantage of MinUI's clean navigation interface.  
+While the <a href="https://github.com/shauninman/MinUI">MinUI</a> launcher greatly improves the GKD Pixel's navigation and user experience, some of the MinUI cores struggle to play certain games at full speed on the device (mostly SNES and PS1).  Using MinUI's pak function, we can create alternative folders and scripts to launch problematic games with the Pixel's stock standalone emulators instead of the default MinUI core, while still taking advantage of MinUI's clean navigation interface.  It's a great option for those who can stomach a little jank.
 
 Features:
 - adds option to launch problematic SNES, PS1, and GBA games with the stock standalone emulator

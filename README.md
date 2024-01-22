@@ -16,7 +16,7 @@ Caveats:
 ## Installation
 
 1. Install the <a href="https://github.com/shauninman/MinUI/releases">latest MinUI release</a> onto the GKD Pixel by following its instructions.
-2. Near the top-right of this page, find the green button labeled "<> Code".  Click on it and select "Download Zip".  Extract the zip file and place its contents into the root directory of your microSD card's ROMS partition.
+2. <a href="https://github.com/retrogamecorps/GKD-Pixel-MinUI-Addons/releases">Download the latest release</a> of this package.  Extract the zip file and place its contents into the root directory of your microSD card's ROMS partition.
 3. In the Roms folder, you will now see new alternative folders for problematic systems (SNES, PS1, and GBA), and a bunch of arcade folders.  Each folder is detailed below.
 
 ### Super Nintendo Entertainment System

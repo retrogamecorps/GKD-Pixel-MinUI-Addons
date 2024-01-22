@@ -25,7 +25,7 @@ After installation of this add-on pack, place any problematic SNES games in the 
 
 ### PlayStation
 
-After installation of this add-on pack, place any problematic PS1 games in the Roms > Sony Playstation (PS-ALT) folder.  Now, those game will still appear in the PS1 folder in your MinUI interface, but will launch with the GKD Pixel's stock standalone PCSX4All emulator.   *Note that CHD files are not compatible with this emulator, so you will need to use ISO, BIN/CUE, or PBP files instead.*
+After installation of this add-on pack, place any problematic PS1 games in the Roms > Sony Playstation (PS-ALT) folder.  Now, those game will still appear in the PS1 folder in your MinUI interface, but will launch with the GKD Pixel's stock standalone PCSX4All emulator.   The stock microSD card should come with BIOS files already loaded, but if you need to add your own, they should go in the /media/data/local/home/.pcsx4all/bios folder on your card's Linux partition.  *Note that CHD files are not compatible with this emulator, so you will need to use ISO, BIN/CUE, or PBP files instead.*
 
 ### Game Boy Advance
 
@@ -52,7 +52,7 @@ Note that I am not sure which romset is compatible with the mame4all2 core, but 
 ## Final Notes
 
 - Special thanks to <a href="https://github.com/shauninman/MinUI">MinUI</a> developer <a href="https://github.com/shauninman">shauninman</a> for the tips on how to get this all set up
-- You can create similar paks for other standalone emulators available on the GKD Pixel, such as DOSBox, EasyRPG, Java, Flash, OpenBOR, and so on.  To do so, go to the Emus folder and simply copy one of the other paks from this repo and change the third line in its launch.sh file to match the standalone OPK (minus the .opk file extension).  You can find the standalone apps in /media/data/apps/ (you will need to read a Linux file system, or use the MinUI "File Explorer" tool available in its "Extras" package.  Here are the names of the standalone emulators in my stock test card:
+- You can create similar paks for other standalone emulators available on the GKD Pixel, such as DOSBox, EasyRPG, Java, Flash, OpenBOR, and so on.  To do so, go to the Emus folder and simply copy one of the other paks from this repo and change the third line in its launch.sh file to match the standalone OPK (minus the .opk file extension).  You can find the standalone apps in /media/data/apps/ (you will need to read a Linux file system, or use the MinUI "Files" tool available in its "Extras" package.  Here are the names of the standalone emulators in my stock test card:
 - - dosbox-v11.opk
   - easyrpg-test.opk
   - Flash.opk

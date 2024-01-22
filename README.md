@@ -25,7 +25,7 @@ After installation of this add-on pack, place any problematic SNES games in the 
 
 ### PlayStation
 
-After installation of this add-on pack, place any problematic PS1 games in the Roms > Sony Playstation (PS-ALT) folder.  Now, those game will still appear in the PS1 folder in your MinUI interface, but will launch with the GKD Pixel's stock standalone PCSX4All emulator.   Note that CHD files are not compatible with this emulator, so you will need to use ISO, BIN/CUE, or PBP files instead.
+After installation of this add-on pack, place any problematic PS1 games in the Roms > Sony Playstation (PS-ALT) folder.  Now, those game will still appear in the PS1 folder in your MinUI interface, but will launch with the GKD Pixel's stock standalone PCSX4All emulator.   *Note that CHD files are not compatible with this emulator, so you will need to use ISO, BIN/CUE, or PBP files instead.*
 
 ### Game Boy Advance
 
@@ -41,11 +41,11 @@ I've also added access to the FinalBurn Neo standalone emulator, which is based 
 
 ### Neo Geo
 
-Neo Geo has its own folder within the Roms folder, so that it will show up as its own menu item within the MinUI interface.  Because these ROMs launch with a standard FBA (FBA35) emulator, you can also just place your Neo Geo ROMs within an Arcade (FBA35, FBA44, or FBN) ROM folder so that they are integrated into your general Arcade MinUI list.  You could also make a "Neo Geo" subfolder within the Arcade (FBA35) folder to clean up the main MinUI interface even more.  Be sure to place the neogeo.zip BIOS file in the same folder as your Neo Geo ROMs.
+Neo Geo has its own folder within the Roms folder, so that it will show up as its own menu item within the MinUI interface.  Because these ROMs launch with a standard FBA (FBA35) emulator, you can also just place your Neo Geo ROMs within an Arcade (FBA35, FBA44, or FBN) ROM folder so that they are integrated into your general Arcade MinUI list.  You could also make a "Neo Geo" subfolder within the Arcade (FBA35) folder to clean up the main MinUI interface even more.  *Be sure to place the neogeo.zip BIOS file in the same folder as your Neo Geo ROMs.*
 
 ### XMAME
 
-The XMAME app will allow you to play some arcade titles that aren't compatible with FBA or FBN, like classic 80s arcade games.  The app doesn't launch ROM files directly, but starting the pre-loaded "_launch XMAME" file will launch the standalone app where you can browse your arcade ROM directory.  The app looks in a specific folder for the ROM files, which can be found in ROMS > apps > xmame_2_0.  There are three MAME subfolders (mame4all2, xmame69, and xmame84), which should all be pre-populated on the stock GKD Pixel microSD card.  Within each of these subfolders will be a roms folder, where you can add your files. Samples can also be added to the corresponding samples folder.  If you do not want to see the "_launch XMAME" prompt in your Arcade folder, simply delete the Roms > Arcade (XMAME) > _launch XMAME.zip file.
+The XMAME app will allow you to play some arcade titles that aren't compatible with FBA or FBN, like classic 80s arcade games.  The app doesn't launch ROM files directly, but starting the pre-loaded "_launch XMAME" file will launch the standalone app where you can browse your arcade ROM directory.  The app looks in a specific folder for the ROM files, which can be found in ROMS > apps > xmame_2_0.  There are three MAME subfolders (mame4all2, xmame69, and xmame84), which should all be pre-populated on the stock GKD Pixel microSD card.  Within each of these subfolders will be a roms folder, where you can add your files. Samples can also be added to the corresponding samples folder.  *If you do not want to see the "_launch XMAME" prompt in your Arcade folder, simply delete the Roms > Arcade (XMAME) > _launch XMAME.zip file.*
 
 Note that I am not sure which romset is compatible with the mame4all2 core, but for the other two, MAME 0.69 = <a href="https://wiki.mamedev.org/index.php/MAME_0.69u3">v0.69u3</a> (05JUN2003) and MAME 0.84 = <a href="https://wiki.mamedev.org/index.php/MAME_0.84u6">v0.84u6</a> (03AUG2004).  If you don't have access to the specific romset that matches those cores, the MAME 2003 Plus romset will generally be the most compatible.  Once you are in the XMAME interface, press L1 or R1 to cycle through the three MAME cores and their games lists.  To exit a game, press L1 + R1 + SELECT + START.
 

@@ -15,7 +15,7 @@ Caveats:
 
 ## Installation
 
-1. Install the <a href="https://github.com/shauninman/MinUI/releases">latest MinUI release</a> onto the GKD Pixel by following its instructions.
+1. Install the <a href="https://github.com/shauninman/MinUI/releases">latest MinUI release</a> onto the GKD Pixel's stock SD card by following the MinUI instructions.
 2. <a href="https://github.com/retrogamecorps/GKD-Pixel-MinUI-Addons/releases">Download the latest release</a> of this package.  Extract the zip file and place its contents into the root directory of your microSD card's ROMS partition.
 3. In the Roms folder, you will now see new alternative folders for problematic systems (SNES, PS1, and GBA), and a bunch of arcade folders.  Each folder is detailed below.
 
@@ -52,7 +52,7 @@ Note that I am not sure which romset is compatible with the mame4all2 core, but 
 ## Final Notes
 
 - Special thanks to <a href="https://github.com/shauninman/MinUI">MinUI</a> developer <a href="https://github.com/shauninman">shauninman</a> for the tips on how to get this all set up
-- You can create similar paks for other standalone emulators available on the GKD Pixel, such as DOSBox, EasyRPG, Java, Flash, OpenBOR, and so on.  To do so, go to the Emus folder and simply copy one of the other paks from this repo and change the third line in its launch.sh file to match the standalone OPK (minus the .opk file extension).  You can find the standalone apps in /media/data/apps/ (you will need to read a Linux file system, or use the MinUI "Files" tool available in its "Extras" package.  Here are the names of the standalone emulators in my stock test card:
+- You can create similar paks for other standalone emulators available on the GKD Pixel, such as DOSBox, EasyRPG, Java, Flash, OpenBOR, and so on.  To do so, go to the Emus folder and simply copy one of the other paks from this repo and change the third line in its launch.sh file to match the standalone OPK (minus the .opk file extension).  You can find the standalone apps in /media/data/apps/ (you will need to read a Linux file system, or use the MinUI "Files" tool available in its "Extras" package).  Here are the names of the standalone emulators in my stock test card:
 - - dosbox-v11.opk
   - easyrpg-test.opk
   - Flash.opk

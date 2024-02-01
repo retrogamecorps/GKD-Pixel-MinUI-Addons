@@ -25,7 +25,7 @@ After installation of this add-on pack, place any problematic SNES games in the 
 
 ### PlayStation
 
-After installation of this add-on pack, place any problematic PS1 games in the Roms > Sony Playstation (PS-ALT) folder.  Now, those game will still appear in the PS1 folder in your MinUI interface, but will launch with the GKD Pixel's stock standalone PCSX4All emulator.   The stock microSD card should come with BIOS files already loaded, but if you need to add your own, they should go in the /media/data/local/home/.pcsx4all/bios folder on your card's Linux partition.  *Note that CHD files are not compatible with this emulator, so you will need to use ISO, BIN/CUE, or PBP files instead.*
+After installation of this add-on pack, place any problematic PS1 games in the Roms > Sony Playstation (PS-ALT) folder.  Now, those game will still appear in the PS1 folder in your MinUI interface, but will launch with the GKD Pixel's stock standalone PCSX4All emulator.   The stock microSD card should come with BIOS files already loaded, but if you need to add your own, they should go in the /media/data/local/home/.pcsx4all/bios folder on your card's Linux partition.  *Note that CHD files are not compatible with this emulator, so you will need to use ISO, IMG, BIN/CUE, or PBP files instead.*
 
 ### Game Boy Advance
 

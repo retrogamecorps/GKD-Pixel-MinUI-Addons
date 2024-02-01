@@ -49,9 +49,13 @@ The XMAME app will allow you to play some arcade titles that aren't compatible w
 
 Note that I am not sure which romset is compatible with the mame4all2 core, but for the other two, MAME 0.69 = <a href="https://wiki.mamedev.org/index.php/MAME_0.69u3">v0.69u3</a> (05JUN2003) and MAME 0.84 = <a href="https://wiki.mamedev.org/index.php/MAME_0.84u6">v0.84u6</a> (03AUG2004).  If you don't have access to the specific romset that matches those cores, the MAME 2003 Plus romset will generally be the most compatible.  Once you are in the XMAME interface, press L1 or R1 to cycle through the three MAME cores and their games lists.  To exit a game, press L1 + R1 + SELECT + START.
 
+### Revert to Stock tool
+
+If you want to get out of the MinUI interface and return to the stock IUX interface, I've added a Tool (created by MinUI developer Shaun Inman!) which you will find after installing this pack.  To go back to MinUI afterwards, just follow the MinUI installation instructions.
+
 ## Final Notes
 
-- Special thanks to <a href="https://github.com/shauninman/MinUI">MinUI</a> developer <a href="https://github.com/shauninman">shauninman</a> for the tips on how to get this all set up
+- Special thanks to <a href="https://github.com/shauninman/MinUI">MinUI</a> developer <a href="https://github.com/shauninman">shauninman</a> for the tips on how to get this all set up, and for the "Revert Stock" pak file.
 - You can create similar paks for other standalone emulators available on the GKD Pixel, such as DOSBox, EasyRPG, Java, Flash, OpenBOR, and so on.  To do so, go to the Emus folder and simply copy one of the other paks from this repo and change the third line in its launch.sh file to match the standalone OPK (minus the .opk file extension).  You can find the standalone apps in /media/data/apps/ (you will need to read a Linux file system, or use the MinUI "Files" tool available in its "Extras" package).  Here are the names of the standalone emulators in my stock test card:
 - - dosbox-v11.opk
   - easyrpg-test.opk

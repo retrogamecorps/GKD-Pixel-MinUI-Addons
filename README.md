@@ -59,3 +59,4 @@ Note that I am not sure which romset is compatible with the mame4all2 core, but 
   - gkdmini_java.opk
   - OpenBOR.opk
 - After making the requisite .pak within the Emus folder, make a corresponding ROMs folder within the Roms section and make sure it features the pak name in parenthesis.  For example, if you make a DOSBox pak and name it DOS.pak, name your ROMs folder something like MS-DOS (DOS).
+- You could also launch OPKs on their own if you place them in the Tools folder and follow the coding for those launch.sh files.  This will be good for standalone emulators that don't directly launch a game (like XMAME), or the standalone ports that are included on the GKD Pixel (like SORR).  

@@ -1,1 +1,0 @@
-ROMs here should be compatible with the FBA 0.2.97.35 romset.  If you are having trouble finding the right archive, search for RG350 arcade romsets.

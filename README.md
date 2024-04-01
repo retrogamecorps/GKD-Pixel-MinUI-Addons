@@ -49,6 +49,10 @@ The XMAME app will allow you to play some arcade titles that aren't compatible w
 
 Note that I am not sure which romset is compatible with the mame4all2 core, but for the other two, MAME 0.69 = <a href="https://wiki.mamedev.org/index.php/MAME_0.69u3">v0.69u3</a> (05JUN2003) and MAME 0.84 = <a href="https://wiki.mamedev.org/index.php/MAME_0.84u6">v0.84u6</a> (03AUG2004).  If you don't have access to the specific romset that matches those cores, the MAME 2003 Plus romset will generally be the most compatible.  Once you are in the XMAME interface, press L1 or R1 to cycle through the three MAME cores and their games lists.  To exit a game, press L1 + R1 + SELECT + START.
 
+### Music Player
+
+I've added the stock Gmu Music Player as an app within the Tools folder.  Once booting it up, navigate to wherever you've saved your music files (I recommend media/roms/music) and play them from there.  When you start up the app it will give you a text walkthrough of how to use the app, bear in mind sometimes the ABXY button inputs are swapped on the GKD Pixel compared to the labels on the app (A = B, and so on).  To return to the instructions at any time, press SELECT + Up on the d-pad.  For the best results, add your songs to a playlist first; navigate to the folder where your album is stored, then press SELECT + Y on the GKD Pixel to add that directory to the playlist.  You can swap between the navigation, playlist, and track info menus by pressing the START button.  The app supports mp3s and FLAC files (but not m4a), and the screen will turn off after 30 seconds of being on idle (press any button to wake).
+
 ### Revert to Stock tool
 
 If you want to get out of the MinUI interface and return to the stock IUX interface, I've added a Tool (created by MinUI developer Shaun Inman!) which you will find after installing this pack.  To go back to MinUI afterwards, just follow the MinUI installation instructions.

@@ -7,6 +7,8 @@ Features:
 - adds option to launch problematic SNES, PS1, and GBA games with the stock standalone emulator
 - integrates browsing experience between the various launchers, leading to a more seamless navigation experience
 - adds alternative emulators not supported in MinUI, such as arcade cores
+- also adds stock apps like an mp3 player, and missing cores like Fak08 (Pico-8)
+- handy "Revert to Stock" tool if you want to get out of MinUI and back to the stock OS experience!
 
 Caveats:
 - launching games from the standalone emulator loses some core MinUI functionality (like its minarch frontend)

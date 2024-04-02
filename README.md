@@ -7,7 +7,8 @@ Features:
 - adds option to launch problematic SNES, PS1, and GBA games with the stock standalone emulator
 - integrates browsing experience between the various launchers, leading to a more seamless navigation experience
 - adds alternative emulators not supported in MinUI, such as arcade cores
-- also adds the stock mp3 player app in the Tools section, and the missing Fake08 (Pico-8) core
+- adds the stock mp3 player app in the Tools section
+- adds the missing Fake08 core for Pico-8 emulation (which is a great fit for the GKD Pixel)
 - handy "Revert to Stock" tool if you want to get out of MinUI and back to the stock OS experience!
 
 Caveats:

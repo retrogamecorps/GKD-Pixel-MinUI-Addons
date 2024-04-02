@@ -15,7 +15,7 @@ Caveats:
 
 ## Installation
 
-1. Install the <a href="https://github.com/shauninman/MinUI/releases">latest MinUI release</a> onto the GKD Pixel's stock SD card by following the MinUI instructions.
+1. Install the <a href="https://github.com/shauninman/MinUI/releases">latest MinUI release</a> onto the GKD Pixel's stock SD card by following the MinUI instructions.  Add both the "base" and "extras" packages!
 2. <a href="https://github.com/retrogamecorps/GKD-Pixel-MinUI-Addons/releases">Download the latest release</a> of this package.  Extract the zip file and place its contents into the root directory of your microSD card's ROMS partition.
 3. In the Roms folder, you will now see new alternative folders for problematic systems (SNES, PS1, and GBA), and a bunch of arcade folders.  Each folder is detailed below.
 
@@ -43,6 +43,10 @@ I've also added access to the FinalBurn Neo standalone emulator, which is based 
 
 Neo Geo has its own folder within the Roms folder, so that it will show up as its own menu item within the MinUI interface.  Because these ROMs launch with a standard FBA (FBA35) emulator, you can also just place your Neo Geo ROMs within an Arcade (FBA35, FBA44, or FBN) ROM folder so that they are integrated into your general Arcade MinUI list.  You could also make a "Neo Geo" subfolder within the Arcade (FBA35) folder to clean up the main MinUI interface even more.  *Be sure to place the neogeo.zip BIOS file in the same folder as your Neo Geo ROMs.*
 
+### Pico-8
+
+For some reason Pico-8 wasn't added to the GKD Pixel version of MinUI, even though it is an officially supported system by the platform, so I added it back in.  Thanks to <a href="https://github.com/game-de-it">game-de-it</a>'s work in collecting all those cores in one spot, which is where I grabbed the Fake08 core.  Because it's running via emulation, expect that some Pico-8 games won't boot or will have inaccurate audio.
+
 ### XMAME
 
 The XMAME app will allow you to play some arcade titles that aren't compatible with FBA or FBN, like classic 80s arcade games.  The app doesn't launch ROM files directly, but just the emulator itself.  After some hemming and hawing, I've decided to put it in the Tools directory.  So just go to Tools > XMAME and start up the app.  The app looks in a specific folder for the ROM files, which can be found in ROMS > apps > xmame_2_0.  There are three MAME subfolders (mame4all2, xmame69, and xmame84), which should all be pre-populated on the stock GKD Pixel microSD card.  Within each of these subfolders will be a roms folder, where you can add your files. Samples can also be added to the corresponding samples folder.  *If you do not want to see the "_launch XMAME" prompt in your Arcade folder, simply delete the Roms > Arcade (XMAME) > _launch XMAME.zip file.*
@@ -60,11 +64,13 @@ If you want to get out of the MinUI interface and return to the stock IUX interf
 ## Final Notes
 
 - Special thanks to <a href="https://github.com/shauninman/MinUI">MinUI</a> developer <a href="https://github.com/shauninman">shauninman</a> for the tips on how to get this all set up, and for the "Revert Stock" pak file.
-- You can create similar paks for other standalone emulators available on the GKD Pixel, such as DOSBox, EasyRPG, Java, Flash, OpenBOR, and so on.  To do so, go to the Emus folder and simply copy one of the other paks from this repo and change the third line in its launch.sh file to match the standalone OPK (minus the .opk file extension).  You can find the standalone apps in /media/data/apps/ (you will need to read a Linux file system, or use the MinUI "Files" tool available in its "Extras" package).  Here are the names of the standalone emulators in my stock test card:
+- Special thanks to <a href="https://github.com/game-de-it">game-de-it</a> for the Fake08 core within their <a href="https://github.com/game-de-it/GKDpixel_StockOS_v2">GKD Pixel StockOSv2 project</a>.
+- You can create similar MinUI paks for other standalone emulators available on the GKD Pixel, such as DOSBox, EasyRPG, Java, Flash, OpenBOR, and so on.  To do so, go to the Emus folder and simply copy one of the other paks from this repo and change the third line in its launch.sh file to match the standalone OPK (minus the .opk file extension).  You can find the standalone apps in /media/data/apps/ (you will need to read a Linux file system, or use the MinUI "Files" tool available in its "Extras" package).  Here are the names of the standalone emulators in my stock test card:
 - - dosbox-v11.opk
   - easyrpg-test.opk
   - Flash.opk
   - gkdmini_java.opk
   - OpenBOR.opk
 - After making the requisite .pak within the Emus folder, make a corresponding ROMs folder within the Roms section and make sure it features the pak name in parenthesis.  For example, if you make a DOSBox pak and name it DOS.pak, name your ROMs folder something like MS-DOS (DOS).
-- You could also launch OPKs on their own if you place them in the Tools folder and follow the coding for those launch.sh files.  This will be good for standalone emulators that don't directly launch a game (like XMAME), or the standalone ports that are included on the GKD Pixel (like SORR).  
+- You could also launch OPKs on their own if you place them in the Tools folder and follow the coding for those launch.sh files.  This will be good for standalone emulators that don't directly launch a game (like XMAME), or the standalone ports that are included on the GKD Pixel (like SORR).
+- If you're feeling really squirrely, you could see if these <a href="https://github.com/game-de-it/GKDpixel_StockOS_v2/tree/main/retroarch/.retroarch/cores">libretro cores</a> work within MinUI's interface.  You'll want to follow the same file and folder structure as what you can find in MinUI's "Emus/gkdpixel" folder.  Try it out, tinkering is fun!  You might get DOOM working.  I was also able to get MAME 2003 Plus working, but the performance was terrible.

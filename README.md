@@ -18,7 +18,7 @@ Caveats:
 
 ## Installation
 
-** Note: this guide assumes that you have a stock SD card that came with your device.  If you don't, you can flash <a href="https://github.com/game-de-it/GKDpixel_StockOS_v2/releases/tag/GKDpixel_StockOS_v2">StockOSv2</a> from game-de-it onto a new card.
+_** Note: this guide assumes that you have a stock SD card that came with your device.  If you don't, you can flash <a href="https://github.com/game-de-it/GKDpixel_StockOS_v2/releases/tag/GKDpixel_StockOS_v2">StockOSv2</a> from <a href="https://github.com/game-de-it">game-de-it</a> onto a new card._
 
 1. Install the <a href="https://github.com/shauninman/MinUI/releases">latest MinUI release</a> onto the GKD Pixel's stock SD card by following the MinUI instructions.  Add both the "base" and "extras" packages!
 2. <a href="https://github.com/retrogamecorps/GKD-Pixel-MinUI-Addons/releases">Download the latest release</a> of this package.  Extract the zip file and place its contents into the root directory of your microSD card's ROMS partition.

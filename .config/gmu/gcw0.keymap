@@ -20,8 +20,8 @@ PreviousTrack=L
 NextTrack=R
 SeekForward=Mod+R
 SeekBackward=Mod+L
-Lock=Lock
-Unlock=Unlock
+Lock=Mod+B
+Unlock=Mod+B
 Exit=Mod+Start
 Help=Mod+Up
 
@@ -41,7 +41,7 @@ PlaylistPlayItem=A
 PlaylistToggleRandomMode=B
 PlaylistRemoveItem=X
 PlaylistClear=Mod+X
-PlaylistSave=Mod+B
+PlaylistSave=Mod+A
 
 # Playlist save dialog:
 PlaylistSaveSelect=A

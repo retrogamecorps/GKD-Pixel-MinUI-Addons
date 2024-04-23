@@ -60,8 +60,7 @@ Note that I am not sure which romset is compatible with the mame4all2 core, but 
 
 ### Music Player
 
-I've added the stock Gmu Music Player as an app within the Tools folder.  Once booting it up, navigate to wherever you've saved your music files (I recommend media/roms/music) and play them from there.  When you start up the app it will give you a text walkthrough of how to use the app.  To return to the instructions at any time, press SELECT + Up on the d-pad.  For the best results, add your songs to a playlist first; navigate to the folder where your album is stored, then press SELECT + Y on the GKD Pixel to add that directory to the playlist.  You can swap between the navigation, playlist, and track info menus by pressing the START button.  The app supports mp3s and FLAC files (but not m4a), and the screen will turn off after 30 seconds of being on idle (press any button to wake).
-You can change the shortcuts in the .config/gmu/gcw0.keymap file.
+I've added the stock Gmu Music Player as an app within the Tools folder.  Once booting it up, navigate to wherever you've saved your music files (I recommend media/roms/music) and play them from there.  When you start up the app it will give you a text walkthrough of how to use the app.  To return to the instructions at any time, press SELECT + Up on the d-pad.  For the best results, add your songs to a playlist first; navigate to the folder where your album is stored, then press SELECT + Y on the GKD Pixel to add that directory to the playlist.  You can swap between the navigation, playlist, and track info menus by pressing the START button.  The app supports mp3s and FLAC files (but not m4a), and the screen will turn off after 30 seconds of being on idle (press any button to wake).  You can also lock the screen by pressing SELECT + B.  If you'd like to make adjustments to the shortcuts, oyu can do so by adjusting the .config/gmu/gcw0.keymap file.
 
 ### Revert to Stock tool
 

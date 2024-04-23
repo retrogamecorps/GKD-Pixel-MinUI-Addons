@@ -26,7 +26,7 @@ _** Note: this guide assumes that you have a stock SD card that came with your d
 
 ### Super Nintendo Entertainment System
 
-After installation of this add-on pack, place any problematic SNES games in the Roms > Super Nintendo Enterainment System (SFC-ALT) folder.  Now, those game will still appear in the SNES folder in your MinUI interface, but will launch with the GKD Pixel's stock standalone PocketSNES emulator. 
+After installation of this add-on pack, place any problematic SNES games in the Roms > Super Nintendo Enterainment System (SFC-ALT) folder.  Now, those game will still appear in the SNES folder in your MinUI interface, but will launch with the GKD Pixel's stock standalone PocketSNES emulator.
 
 ### PlayStation
 
@@ -60,7 +60,8 @@ Note that I am not sure which romset is compatible with the mame4all2 core, but 
 
 ### Music Player
 
-I've added the stock Gmu Music Player as an app within the Tools folder.  Once booting it up, navigate to wherever you've saved your music files (I recommend media/roms/music) and play them from there.  When you start up the app it will give you a text walkthrough of how to use the app, bear in mind sometimes the ABXY button inputs are swapped on the GKD Pixel compared to the labels on the app (A = B, and so on).  To return to the instructions at any time, press SELECT + Up on the d-pad.  For the best results, add your songs to a playlist first; navigate to the folder where your album is stored, then press SELECT + Y on the GKD Pixel to add that directory to the playlist.  You can swap between the navigation, playlist, and track info menus by pressing the START button.  The app supports mp3s and FLAC files (but not m4a), and the screen will turn off after 30 seconds of being on idle (press any button to wake).
+I've added the stock Gmu Music Player as an app within the Tools folder.  Once booting it up, navigate to wherever you've saved your music files (I recommend media/roms/music) and play them from there.  When you start up the app it will give you a text walkthrough of how to use the app.  To return to the instructions at any time, press SELECT + Up on the d-pad.  For the best results, add your songs to a playlist first; navigate to the folder where your album is stored, then press SELECT + Y on the GKD Pixel to add that directory to the playlist.  You can swap between the navigation, playlist, and track info menus by pressing the START button.  The app supports mp3s and FLAC files (but not m4a), and the screen will turn off after 30 seconds of being on idle (press any button to wake).
+You can change the shortcuts in the .config/gmu/gcw0.keymap file.
 
 ### Revert to Stock tool
 

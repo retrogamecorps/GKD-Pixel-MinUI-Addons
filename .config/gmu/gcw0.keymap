@@ -1,0 +1,67 @@
+# Gmu key mappings
+# Required keys: Modifier, Up,
+# Down, Pause, ProgramInfo, Exit,
+# PlaylistPlayItem, PlaylistClear,
+# FileBrowserAddFileToPlaylistOrChDir
+
+Modifier=Select
+
+# Global mappings:
+Up=Up
+Down=Down
+ShutdownTimer=Mod+Down
+IncreaseVolume=Right
+DecreaseVolume=Left
+ToggleTime=Mod+Left
+Pause=Y
+Stop=Mod+Y
+ToggleView=Start
+PreviousTrack=L
+NextTrack=R
+SeekForward=Mod+R
+SeekBackward=Mod+L
+Lock=Mod+B
+Unlock=Mod+B
+Exit=Mod+Start
+Help=Mod+Up
+
+# Program info mappings:
+ProgramInfo=Mod+A
+ProgramInfoOkay=A
+
+# File browser mappings:
+FileBrowserPlayFile=B
+FileBrowserAddFileToPlaylistOrChDir=A
+FileBrowserAddDirToPlaylist=X
+FileBrowserInsertFileIntoPlaylist=Mod+A
+FileBrowserNewPlFromDir=Mod+X
+
+# Playlist mappings:
+PlaylistPlayItem=A
+PlaylistToggleRandomMode=B
+PlaylistRemoveItem=X
+PlaylistClear=Mod+X
+PlaylistSave=Mod+A
+
+# Playlist save dialog:
+PlaylistSaveSelect=A
+PlaylistSaveCancel=B
+PlaylistSaveLoadList=X
+PlaylistSaveAppendList=Mod+X
+PlaylistQueue=Mod+Right
+
+# Track info mappings:
+TrackInfoToggleCover=A
+TrackInfoToggleText=B
+
+# Question dialog mappings:
+QuestionYes=A
+QuestionNo=B
+
+# Setup mappings:
+SetupSelect=A
+SetupSaveAndExit=Y
+SetupSaveAndRunGmu=X
+SetupFileBrowserSelect=A
+SetupFileBrowserChDir=A
+SetupFileBrowserCancel=B
